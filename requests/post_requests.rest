@@ -1,0 +1,8 @@
+# Add a new person
+POST http://localhost:3001/api/persons
+Content-Type: application/json
+
+{
+  "name": "Person Number One",
+  "number": "01-23456789"
+}

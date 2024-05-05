@@ -1,0 +1,14 @@
+# Simple GET request to the home page
+GET http://localhost:3001
+
+###
+# Get all people from the API
+GET http://localhost:3001/api/persons
+
+###
+# Get a single person by ID from the API
+GET http://localhost:3001/api/persons/663694b9b81b53985e2d8fde
+
+###
+# Get information from /info endpoint
+GET http://localhost:3001/info

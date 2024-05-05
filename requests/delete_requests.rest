@@ -1,0 +1,6 @@
+# Delete a single person by ID
+DELETE http://localhost:3001/api/persons/66351947ba5bb9efa777ab1e
+
+###
+# Faulty request
+DELETE http://localhost:3001/api/persons/randoasfifj2i1o231sdd
